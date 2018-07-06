@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Privacy Policy | adish Co., Ltd.</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="adish.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+	<body>
+		<div class="container" id="top">
+			<div class="header"><div class="main-container-1">
+				<div class="logo">
+					<img src="adish_logo.png" height="66" width="168.39">
+				</div>
+				<div class="jp">JP
+				</div>
+				<div class="nav">
+					<div class="navbar"><div>
+						<button class="dropbtn">
+							<div class="dropdown container" id='crossbtn' onclick="myFunction(this)">
+  								<div class="bar1"></div>
+  								<div class="bar2"></div>
+  								<div class="bar3"></div>
+							</div>
+						</button>
+						<div class="dropdown-content" id="myDropdown">
+							<a href="#top">TOP</a>
+      						<a href="#aboutus">About Us</a>
+      						<a href="#mission">Mission</a>
+      						<a href="#service">Service</a>
+      						<a href="#wework">How We Work</a>
+      						<a href="#contact">Contact</a>
+      					</div>
+					</div></div>
+      				<ul class="horizontal">
+						<li><a href="#contact">Contact</a></li>
+                		<li><a href="#wework">How We Work</a></li>
+                		<li><a href="#service">Service</a></li>
+                		<li><a href="#mission">Mission</a></li>
+                		<li><a href="#aboutus">About Us</a></li>
+                		<li><a href="#top">TOP</a></li>
+					</ul>
+				</div>
+			</div></div>
+				<div class="main-container"><div class="privacy-policy">Privacy Policy</div>
+				<div class="privacy-policy-des"><p>adish is an organization based on our mission. We are individuals gathered together with our individual goals and passion to make turn our mission into reality. We are an environment where individuals have the freedom to think and create their career and work style.</p></div>
+			<div class="privacy-policy-title"><h1>Privacy Statement</h1></div><div class="privacy-policy-des"><p>adish International Corporation, a subsidiary of adish Co., Ltd, manages and operates http://adish-intl.com/. This page informs you of our policies regarding the collection, use, and disclosure of personal information we receive from users of the site. We use your personal information only for communicating with you about our services, promotions, and other concerns. By using the site, you agree to the collection and use of information in accordance with this policy.</p></div>
+			<div class="privacy-policy-title"><h1>Information Collect And Use</h1></div><div class="privacy-policy-des"><p>While using our site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to your name, email address, and contact number. We will not sell or exchange your information to third parties.</p></div>
+			<div class="privacy-policy-title"><h1>Cookies</h1></div><div class="privacy-policy-des"><p>Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer’s hard drive. Like many sites, we use “cookies” to collect information. We require viewers to enable or allow cookies on their browsers in order to benefit from the full functionality offered by our site.</p></div>
+			<div class="privacy-policy-title"><h1>Security</h1></div><div class="privacy-policy-des"><p>The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p></div>
+			<div class="privacy-policy-title"><h1>Contact Us</h1></div><div class="privacy-policy-des"><p>If you have any questions about this Privacy Policy, send us an email at <a href="https://info.adish.co.jp/webapp/form/21053_tdfb_7/index.do" target="_blank">info@adish.co.jp</a>, or please contact us at <b>+81 (0) 3-5759-0334</b>, 8F KSS Gotanda building, 1-12-8 Nishigotanda, Shinagawa-ku, Tokyo 141-0031 Japan.</p></div></div>
+			<div class="button-container2" id="contact">
+			<a href="#top"><div class="button">Back to Top Page</div></a><a href="https://info.adish.co.jp/webapp/form/21053_tdfb_7/index.do" target="_blank"><div class="button1">CONTACT</div></a>
+			</div>
+			<div class="footer"><div class="main-container">Copyright adish Co., Ltd. All rights reserved.</div></div>
+		</div>
+<script>
+function myFunction(e) {
+
+	dropdown_container = document.getElementById("myDropdown")
+	dropdown_button = document.getElementById("crossbtn")
+console.log(dropdown_button)
+    dropdown_container.classList.toggle("show");
+    dropdown_button.classList.toggle("change");
+
+    // document.getElementById('crossbtn').classList.toggle('change');
+}
+</script>
+<script type="text/javascript">
+    $(function(){
+    	dropdown_container = document.getElementById("myDropdown")
+      $('a[href*="#"]').click(function(){
+        var target = $(this.hash);
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        dropdown_button.classList.toggle("change");
+        dropdown_container.classList.toggle("show");
+      })
+      dropdown_button = document.getElementById("crossbtn")
+      $('#crossbtn').blur(function(){
+      	dropdown_button.classList.toggle("change");
+      	dropdown_container.classList.toggle("show");
+      })
+    })  
+</script>
+	</body>
+</html>
