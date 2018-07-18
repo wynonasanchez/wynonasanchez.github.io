@@ -1,2 +1,2 @@
 # wynonasanchez.github.io
-adish sample
+sample
